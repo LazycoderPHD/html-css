@@ -12,7 +12,7 @@ h1
     color:black;;
 } */
 
-#p1
+/* #p1
 {
     color:green;
 }
@@ -30,4 +30,14 @@ h1
 #p4
 {
     color:purple;
+} */
+
+.odd
+{
+    color:green;
+}
+
+.even
+{
+    color:blue;
 }
