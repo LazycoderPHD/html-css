@@ -1,0 +1,22 @@
+h1
+{
+    border-style: solid;
+    /* border-style: dashed;
+    border-style: dotted;
+    border-style: double;
+    border-style: groove;
+    border-style: inset;
+    border-style: outset; */
+    /* border: 3px solid hsl(204, 67%, 76%); */
+    border-width: 2px;
+    border-color: hsl(204, 67%, 76%);
+    border-radius: 10px;
+}
+p
+{
+    font-size: 1.5em;
+    border-bottom: 2px solid hsl(204, 67%, 76%);
+    border-top: 2px solid hsl(204, 37%, 35%);
+    border-left: 2px outset hsl(172, 73%, 54%);
+    border-right: 2px dotted hsl(172, 41%, 30%);
+}
