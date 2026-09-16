@@ -1,0 +1,17 @@
+@font-face
+{
+    font-family: "Roboto-Regular";
+    src: url("fonts/Roboto-Regular.ttf");
+}
+h1
+{
+    font-family: "Roboto-Regular", verdana, arial, sans-serif;
+}
+
+p
+{
+    font-family: "Roboto-Regular", "Times New Roman", Times, serif, "lucida console"; 
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+}
