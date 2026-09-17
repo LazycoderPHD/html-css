@@ -1,0 +1,25 @@
+/* .box
+{
+    margin: 0px;
+    background-color:rgb(92, 163, 140);
+    border: 6px solid;
+    width: 200px;
+    height: 200px;
+    font-size: 4em;
+} */
+body
+{
+    border: 3px solid;
+    display:flow-root;
+}
+#img1
+{
+    float: left;
+    margin-right: 5px;
+}
+
+#img2
+{
+    float: right;
+    margin-right: 5px;
+}
