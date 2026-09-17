@@ -1,0 +1,20 @@
+div
+{
+    background-color: rgb(107, 204, 172);
+    width: 300px;
+    height: 300px;
+}
+span
+{
+    background-color:rgb(25, 223, 223);
+    width: 300px;
+    height: 300px;
+}
+#d1
+{
+    font-size: 70px;
+}
+#s1
+{
+    font-size: 70px;
+}
