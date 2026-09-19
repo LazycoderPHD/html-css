@@ -3,6 +3,12 @@
     width: 200px;
     height: 200px;
     background-color:#0eb8b8;
-    /* position: fixed; */
-    position: relative;
+    position: fixed;
+    /* position: relative; */
+}
+#box2
+{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(213, 92, 6)
 }
