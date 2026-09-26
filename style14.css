@@ -1,0 +1,43 @@
+button:hover
+{
+    font-size: 1.5em;
+    background-color: rgb(65, 103, 136)
+}
+
+button:active
+{
+    font-size: 1.5em;
+    background-color:rgb(207, 219, 38)
+}
+a:link, a:visited
+{
+    color:rgb(244, 62, 1);
+    font-size:1.5em;
+}
+a:hover
+{
+    color:rgb(250, 215, 234);
+    font-size: 1.8em;
+}
+a:active
+{
+    color: rgb(50, 123, 13)
+}
+
+li
+{
+    font-size:1.5em;
+}
+li:hover
+{
+    color: tomato;
+    background-color: aqua;
+}
+li:not(:hover)
+{
+    background-color: beige;
+}
+li:nth-child(odd)
+{
+    background-color:brown;
+}
