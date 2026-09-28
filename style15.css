@@ -11,3 +11,8 @@ p::first-line
 {
     background-color: aquamarine;
 }
+p::selection
+{
+    color :rgb(68, 129, 182);
+    background-color:rgb(180, 145, 101)
+}
