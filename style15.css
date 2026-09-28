@@ -1,0 +1,13 @@
+body
+{
+    font-size: 1.2em;
+}
+h1::first-letter
+{
+    font-size:3em;
+    font-style: italic;
+}
+p::first-line
+{
+    background-color: aquamarine;
+}
