@@ -14,13 +14,13 @@ p::first-line
 p::selection
 {
     color :rgb(68, 129, 182);
-    background-color:rgb(180, 145, 101)
+    background-color:rgb(180, 145, 101);
 }
 
-#fruit li::before
+/* #fruit li::before
 {
 
-}
+} */
 #apple::after
 {
     content: "tao";
