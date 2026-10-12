@@ -2,5 +2,18 @@
 {
     display: inline-block;
     border: 1px solid blanchedalmond;
-    margin: 5px;
+    margin: 3px;
+    width: 250px;
+}
+.gallery .description
+{
+    padding: 10px;
+    text-align: center;
+}
+.gallery:hover{
+    border: 1px solid rgb(160, 156, 156)
+}
+.gallery img{
+    width: 100%;
+    height:auto;
 }
