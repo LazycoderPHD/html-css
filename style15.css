@@ -1,0 +1,40 @@
+body
+{
+    font-size: 1.2em;
+}
+h1::first-letter
+{
+    font-size:3em;
+    font-style: italic;
+}
+p::first-line
+{
+    background-color: aquamarine;
+}
+p::selection
+{
+    color :rgb(68, 129, 182);
+    background-color:rgb(180, 145, 101);
+}
+
+/* #fruit li::before
+{
+
+} */
+#apple::after
+{
+    content: "tao";
+}
+#orange::after
+{
+    content: "cam";
+}#banana::after
+{
+    content: "chuoi";
+}
+#fruit li::marker
+{
+    content: "h";
+    color: rgb(101, 67, 54);
+    font-size: 1.5em;
+}

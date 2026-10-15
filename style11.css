@@ -4,6 +4,8 @@
     height: 200px;
     background-color:#0eb8b8;
     position: relative;
+    top: 100px;
+    left: 100px;
     /* position: relative; */
     left: 100px;
     top: 100px;
