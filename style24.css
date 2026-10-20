@@ -5,7 +5,7 @@
     background-color: #bd1010;
     font-size: 13em;
     text-align: center;
-    animation-name: grow;
+    animation-name: shrink;
     animation-duration: 2s;
 }
 @keyframes slideleft{
@@ -24,6 +24,9 @@
 {
     50%{transform: rotateZ(360deg)}
 }
-@keyframs grow{
-    100%{transform: scale(2, 2)}
+@keyframes grow{
+    50%{transform: scale(2, 2)}
+}
+@keyframes shrink{
+    50%{transform: scale(0.5, 0.5)}
 }
