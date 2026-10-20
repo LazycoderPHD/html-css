@@ -7,16 +7,26 @@ body
 {
     width: 250px;
     height: 250px;
-    background-color: #bd1010;
+    background-color: #d3c5c5;
     font-size: 13em;
     text-align: center;
     animation-name: slideleft;
     animation-duration: 2s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
     animation-direction: alternate-reverse;
     animation-play-state: running;
     animation-timing-function: linear;
     /* opacity: 0; */
+}
+img{
+    height: 100%;
+    width: 100%;
+    animation-name: slideleft;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-direction: alternate-reverse;
+    animation-play-state: running;
+    animation-timing-function: linear;
 }
 #box1:hover
 {
