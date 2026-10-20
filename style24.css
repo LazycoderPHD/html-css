@@ -5,8 +5,9 @@
     background-color: #bd1010;
     font-size: 13em;
     text-align: center;
-    animation-name: fade;
+    animation-name: glow;
     animation-duration: 2s;
+    /* opacity: 0; */
 }
 @keyframes slideleft{
     from{transform: translateX(100%)}
@@ -32,4 +33,18 @@
 }
 @keyframes fade{
     50%{opacity: 0}
+}
+@keyframes fadein{
+    50%{opacity: 0}
+}
+@keyframes colorchange{
+    0%{background-color: #4b9661}
+    20%{background-color: #a7b620}
+    40%{background-color: #c415a7}
+    60%{background-color: #2b1188}
+    80%{background-color: #e8a71c}
+    100%{background-color: #da10f5}
+}
+@keyframes glow{
+    50%{box-shadow: 0px 0px 20px #e8a71c}
 }
